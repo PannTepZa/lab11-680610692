@@ -93,7 +93,7 @@ submitBtn.onclick = () => {
 
   // validate confirm password
 
-  if (passwordInput.value !== confirmInput.value || confirmInput.value.length === 0){
+  if (passwordInput.value !== confirmInput.value || confirmInput.value.length === 0 || !isPasswordOK){
     confirmInput.classList.add("is-invalid")
     isConfirmOK = false;
   } else {
