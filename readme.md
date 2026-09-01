@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล : ปัณณ์ กิตินา
 
-GitHub Page URL :
+GitHub Page URL : https://panntepza.github.io/lab11-680610692/index.html
 
 ---
 
