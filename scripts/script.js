@@ -44,14 +44,13 @@ confirmInput.onkeyup = () => {
   confirmInput.classList.remove("is-invalid");
 };
 
-
+let isFirstNameOk = false;
+let isLastNameOK = false;
+let isEmailOK = false;
+let isPasswordOK = false;
+let isConfirmOK = false;
 // add callback function for submit button.
 submitBtn.onclick = () => {
-  isFirstNameOk = false;
-  isLastNameOK = false;
-  isEmailOK = false;
-  isPasswordOK = false;
-  isConfirmOK = false;
 
   // validate first name
   if (firstNameInput.value === "") {
